@@ -1,0 +1,7 @@
+rs\netplanet\Services\BowtzAPIService.class
+rs\netplanet\Models\ItemModel.class
+rs\netplanet\Services\FileParser.class
+rs\netplanet\Threads\MainThread.class
+rs\netplanet\App.class
+rs\netplanet\Services\FilesService.class
+rs\netplanet\Services\FTPService.class
