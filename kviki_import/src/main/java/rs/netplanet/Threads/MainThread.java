@@ -28,9 +28,9 @@ public class MainThread extends TimerTask {
 
     public MainThread() {
         // create ftp service-connect to ftp, create local services
-        ftpService = new FTPService("esl.netplanet.rs", "kviki@esl.netplanet.rs", "7GybydK2S64yGbZ6BxNa");
+        ftpService = new FTPService("esl.netplanet.rs", "user", "password");
         filesService = new FilesService();
-        bowtzAPIService = new BowtzAPIService("dbae5ab7f641392d13b6de1866c212d9", "Kviki 8",
+        bowtzAPIService = new BowtzAPIService("secret", "store_codes",
                 "Kviki");
         // BowtzAPIService bowtzAPIService = new
         // BowtzAPIService("dbae5ab7f641392d13b6de1866c212d9", "Kviki 8",
